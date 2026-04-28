@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practical 19</title>
+    <link rel="stylesheet" href="../css/practical19.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <div class="header">
+        <h4>Punyajit Saikia</h4>
+    </div>
+
+    <!-- Main Content -->
+    <div class="content">
+        <h2>This is the practical solution for Practical 19.</h2>
+
+        <!-- Date Section -->
+        <div class="content">
+            <h3>Date</h3>
+            <script>
+                var today = new Date();
+                document.write("Today's date and time is: " + today);
+            </script>
+        </div>
+
+        <!-- Maths Section -->
+        <div class="content">
+            <h2>Maths</h2>
+            <script>
+                var n = 18;
+                var result1 = Math.floor(n);
+                var result2 = Math.round(n);
+                var result3 = Math.sqrt(n);
+                var result4 = Math.pow(n, 2);
+
+                document.write("Floor value: " + result1 + "<br>");
+                document.write("Rounded value: " + result2 + "<br>");
+                document.write("Square root: " + result3 + "<br>");
+                document.write("Square: " + result4);
+            </script>
+        </div>
+
+        <!-- String Section -->
+        <div class="content">
+            <h2>String</h2>
+            <script>
+                var word = "Hello World!";
+                var uc = word.toUpperCase();
+                document.write("Uppercase: " + uc);
+
+                var lc = uc.toLowerCase();
+                document.write("<br>Lowercase: " + lc);
+            </script>
+        </div>
+    </div>
+</body>
+</html>
